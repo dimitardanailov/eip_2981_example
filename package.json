@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "yarn"
+    "test": "npx hardhat test",
+    "test:marketplace": "npx hardhat test test/Marketplace.js",
+    "test:nft": "npx hardhat test test/NFT.js"
   },
   "keywords": [
     "solidity",
